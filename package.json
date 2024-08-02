@@ -2,20 +2,15 @@
   "name": "bot-remancos",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "tsnd --respawn --clear src/app.ts",
-    "build": "rimraf ./dist && tsc",
-    "start": "npm run build && node dist/app.js"
+    "dev": "node src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@types/node": "^22.0.2",
-    "rimraf": "^6.0.1",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.5.4"
   },
   "dependencies": {
     "discord.js": "^14.15.3",
