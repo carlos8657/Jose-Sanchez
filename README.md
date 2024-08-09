@@ -17,4 +17,18 @@ Este proyecto es un bot de discord para el servidor de Remancos con la finalidad
 
    ```bash
    git clone https://github.com/carlos8657/Jose-Sanchez.git
+
+2. **Abrir el directorio:**
+
+   ```bash
+   cd /Jose-Sanchez
    
+3. **Instalar los paquetes:**
+
+   ```bash
+   npm install
+   
+4. **Ejecutar el programa**
+
+   ```bash
+   npm run dev
